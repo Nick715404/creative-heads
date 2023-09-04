@@ -1,0 +1,25 @@
+.works {
+  margin-bottom: 100px;
+}
+
+.works__title {
+  color: var(--dark);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 1024px) {
+  .works__title {
+    font-size: calc(var(--index) * 4);
+  }
+}
+
+@media (max-width: 768px) {
+  .works__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,130 @@
+.cards__item {
+  width: 910px;
+  min-height: 749px;
+  margin-bottom: 115px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.cards__img {
+  width: 100%;
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 42px;
+  position: relative;
+  transition: background-size .4s ease-in-out;
+}
+
+.cards__img:hover {
+  background-size: 102%;
+}
+
+.cards__link {
+  margin-bottom: 25px;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  color: var(--dark);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 106%;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #060606;
+  transform: translateX(-100%);
+  transition: all 0.4s ease-in-out;
+}
+
+.link:hover::after {
+  transform: translateX(0%);
+}
+
+.cards__text {
+  max-width: 714px;
+}
+
+.cards__tag {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 25px;
+  padding: 10.5px 25px;
+  display: inline-block;
+  border: 1px solid var(--dark);
+  border-radius: 50px;
+  color: var(--dark);
+  cursor: default;
+  transition: all .6s ease-in-out;
+}
+
+.cards__tag:hover {
+  color: var(--white);
+}
+
+.cards__btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 32px;
+  right: 25px;
+  border: 1px solid var(--dark);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cards__btn::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background-image: url("/img/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+  transition: all 1s ease-in-out;
+}
+
+.cards__btn:hover::after {
+  transform: rotate(360deg);
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 51px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+.item_link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cards__img:hover {
+    background-size: inherit;
+  }
+}

@@ -1,0 +1,43 @@
+.border {
+  width: 98.8%;
+  border-top: 1px solid var(--dark);
+  padding: 20px 25px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 106%; /* 21.2px */
+  text-transform: uppercase;
+  position: relative;
+}
+
+.border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../../../../../public/img/border/left-curve.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 21px;
+  width: 13px;
+}
+
+.left_curve {
+  position: absolute;
+  height: 21px;
+  width: 13px;
+  top: -1px;
+  left: -5px;
+}
+
+.rigth_curve {
+  position: absolute;
+  height: 21px;
+  width: 13px;
+  top: -1px;
+  right: -5px;
+}

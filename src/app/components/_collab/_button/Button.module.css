@@ -1,0 +1,62 @@
+.collab__btn {
+  position: relative;
+  display: block;
+  border-radius: 203px;
+  background: var(--purple-gradient);
+  color: var(--white);
+  font-family: Clash Grotesk;
+  padding: 40px 100px;
+  text-align: center;
+  font-size: 79.61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+
+.collab__btn:hover {
+  -webkit-box-shadow: 1px 2px 18px 6px rgba(0, 0, 0, 0.37);
+  box-shadow: 1px 2px 18px 6px rgba(0, 0, 0, 0.37);
+  transform: scale(1.02);
+}
+
+.collab__arrow {
+  position: absolute;
+  top: 67px;
+  right: 66px;
+  transition: all 0.5s ease-in-out;
+}
+
+.collab__btn:hover .collab__arrow {
+  top: 87px;
+  right: 206px;
+}
+
+@media (max-width: 548px) {
+  .collab__btn {
+    padding: 28px 70px;
+    font-size: 49.61px;
+  }
+
+  .collab__btn:active .collab__arrow {
+    top: 47px;
+    right: 140px;
+  }
+
+  .collab__btn:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+@media (max-width: 378px) {
+  .collab__btn {
+    padding: 18px 40px;
+    font-size: 29.61px;
+  }
+}

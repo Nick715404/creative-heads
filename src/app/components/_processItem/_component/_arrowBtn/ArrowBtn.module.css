@@ -1,0 +1,29 @@
+.btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--dark);
+  border-radius: 50px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  background: transparent;
+}
+
+.img {
+  position: absolute;
+  z-index: 2;
+  width: 18px;
+  height: 18px;
+  top: 10px;
+  left: 10px;
+  background-image: url(/img/process/black-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image .6s ease-in-out;
+}
+
+.btn:hover .img {
+  background-image: url(/img/process/white-arrow.svg);
+}

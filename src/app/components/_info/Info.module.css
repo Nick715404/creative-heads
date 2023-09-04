@@ -1,0 +1,26 @@
+.info {
+  max-width: 288px;
+  padding-bottom: 20px;
+}
+
+.info__text {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106%; /* 21.2px */
+}
+
+.info__email_box {
+  margin-bottom: 20px;
+}
+
+.info__place_box {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 25px;
+  display: block;
+}

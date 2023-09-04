@@ -1,0 +1,35 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 18px;
+  /* background: rgb(136, 136, 136); */
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.haeder__logo_box {
+  height: 79px;
+}
+
+.header__mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .header__content {
+    display: none;
+  }
+  .header__mobile {
+    display: block;
+  }
+}

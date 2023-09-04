@@ -1,0 +1,65 @@
+.collab {
+  margin-bottom: 150px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.collab::after {
+  content: "";
+  position: absolute;
+  width: 980px;
+  height: 958px;
+  top: -210px;
+  right: -18rem;
+  background-image: url(/img/collab/big-one.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -999;
+}
+
+.collab::before {
+  content: "";
+  position: absolute;
+  width: 605px;
+  height: 678px;
+  bottom: -60px;
+  left: 4rem;
+  background-image: url(/img/collab/triangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -999;
+  transition: all 0.5s ease-in-out;
+}
+
+.collab__btn_box {
+  margin-bottom: 150px;
+}
+
+.collab__text_box {
+  max-width: 1595px;
+  margin-bottom: 105px;
+}
+
+@media (max-width: 1460px) {
+  .collab::before {
+    left: -8rem;
+    background-size: calc(var(--index) * 22);
+  }
+}
+
+@media (max-width: 1135px) {
+  .collab::before {
+    transform: translateY(-6rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  .collab__btn_box {
+    margin-bottom: 80px;
+  }
+  .collab {
+    margin-bottom: 80px;
+  }
+}

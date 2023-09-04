@@ -1,0 +1,12 @@
+.logo {
+  display: inline-block;
+  transition: transform 2.5s;
+  padding: 0;
+  margin: 0;
+  height: 79px;
+  cursor: pointer;
+}
+
+.img {
+  pointer-events: none;
+}

@@ -1,0 +1,9 @@
+.btn {
+  color: var(--dark);
+  transition: all .6s ease-in-out;
+  display: block;
+}
+
+.btn:hover {
+  color: var(--white);
+}
