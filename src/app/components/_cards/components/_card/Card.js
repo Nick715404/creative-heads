@@ -24,16 +24,16 @@ export default function Card({ card }) {
           }
         }>
         <div className={styles.cards__btn}>
-          <button className={styles.btn}></button>
+          <div className={styles.btn}>
+            <Link className={styles.btn_link} href={card.projectPage}></Link>
+          </div>
         </div>
         <div id='onHoverGradient' className={styles.cards__tag}>
           {card.tag}
         </div>
       </div>
       <div className={styles.cards__link}>
-        <Link className={styles.link} href={card.projectPage}>
-          {card.title}
-        </Link>
+        <h4>{card.title}</h4>
       </div>
       <div className={styles.cards__text}>
         {card.text}

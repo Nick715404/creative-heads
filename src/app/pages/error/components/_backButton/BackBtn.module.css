@@ -1,0 +1,19 @@
+.error__back_btn {
+  padding: 8px 16px;
+  border: 1px solid var(--dark);
+  border-radius: 51px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all .2s ease-in-out;
+  color: var(--dark);
+}
+
+.error__back_btn:hover,
+.error__back_btn:active,
+.error__back_btn:focus {
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+  -moz-box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+}

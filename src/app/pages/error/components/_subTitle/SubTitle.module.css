@@ -1,0 +1,9 @@
+.error__subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: calc(var(--index) * 3.6);
+  margin-bottom: 5px;
+  background: var(--purple-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

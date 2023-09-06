@@ -1,0 +1,8 @@
+.error__title {
+  margin-bottom: 30px;
+  font-size: calc(var(--index) * 6);
+  text-transform: uppercase;
+  background: var(--purple-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

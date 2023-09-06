@@ -6,7 +6,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/roboscilab.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/advenure-agency.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/goschool.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/greg-boyar.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/3dModel.jpg',
     tag: 'model',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/eridana.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/eridana.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/eridana.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const cards = [
     text: "We come up with ‘how it would look attractive’ and 'how it would work effectively'. We come up with ‘how it would look attractive’ and 'how it would work effectively'.",
     img: '/img/cards/eridana.jpg',
     tag: 'website',
-    projectPage: '/error',
+    projectPage: '/pages/error',
   },
 ];
 

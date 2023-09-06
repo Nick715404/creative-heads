@@ -3,7 +3,7 @@
 import React from 'react';
 import styles from './Hero.module.css';
 import { fadeIn } from '@/app/transitionVariant';
-import { motion, easeInOut } from 'framer-motion';
+import { motion} from 'framer-motion';
 
 import Border from './components/_border/Border';
 
