@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react';
 import styles from './Explore.module.css';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';

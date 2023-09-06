@@ -3,7 +3,6 @@
   min-height: 749px;
   margin-bottom: 115px;
   transition: all 0.4s ease-in-out;
-  cursor: pointer;
 }
 
 .cards__img {
@@ -21,8 +20,9 @@
   background-size: 102%;
 }
 
-.cards__link {
+.cards__link_box {
   margin-bottom: 25px;
+  color: var(--dark);
 }
 
 .link {
@@ -45,7 +45,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid #060606;
+  border-bottom: 2px solid #060606;
   transform: translateX(-100%);
   transition: all 0.4s ease-in-out;
 }

@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react';
 import styles from './Process.module.css';
 import { discussText, mappingText, executionText } from '@/app/data';
 import { motion } from 'framer-motion';

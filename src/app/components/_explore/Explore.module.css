@@ -18,18 +18,6 @@
   flex-wrap: wrap;
 }
 
-.link::after {
-  content: '';
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid #060606;
-  transform: translateX(-100%);
-  transition: all .4s ease-in-out;
-}
-
 .link {
   font-size: 20px;
   font-style: normal;
@@ -40,6 +28,18 @@
   padding-bottom: 5px;
   display: inline-block;
   overflow-x: hidden;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  transform: translateX(-100%);
+  transition: all .4s ease-in-out;
 }
 
 .link:hover::after {

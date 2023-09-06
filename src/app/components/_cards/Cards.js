@@ -3,7 +3,7 @@
 import styles from './Cards.module.css';
 import Link from 'next/link';
 
-import { React, useState } from 'react';
+import {  useState } from 'react';
 import { cards } from '@/app/data';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/app/transitionVariant';

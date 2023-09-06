@@ -41,3 +41,13 @@
   top: -1px;
   right: -5px;
 }
+
+@media (max-width: 337px) {
+  .border {
+    flex-direction: column;
+    padding: 5px 5px 0 5px;
+  }
+  .text {
+    font-size: calc(var(--index) * 1.2);
+  }
+}

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Border.module.css';
 
 import LeftCurve from 'public/img/border/left-curve.svg';
@@ -9,10 +8,10 @@ export default function Border({date, text}) {
     <div className={styles.border}>
       <LeftCurve className={styles.left_curve} />
       <div className={styles.text}>
-        {date}
+        <span>{date}</span>
       </div>
       <div className={styles.text}>
-        {text}
+        <span>{text}</span>
       </div>
       <RightCurve className={styles.rigth_curve} />
     </div>

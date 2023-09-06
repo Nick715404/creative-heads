@@ -1,8 +1,12 @@
 .socials__title_box {
+  margin-bottom: 23px;
+}
+
+.socials__title {
+  line-height: normal;
   color: var(--white, #fff);
   font-size: 25px;
   font-weight: 600;
-  padding-bottom: 27px;
 }
 
 .socials_list {
@@ -10,7 +14,7 @@
   flex-direction: column;
   max-height: 196px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 .socials_list__item {
@@ -28,5 +32,24 @@
   font-style: normal;
   font-weight: 500;
   line-height: 106%;
+  padding-bottom: 5px;
   display: inline-block;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.socials_list__link::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  transform: translateX(-100%);
+  transition: all .4s ease-in-out;
+}
+
+.socials_list__link:hover::after {
+  transform: translateX(0%);
 }

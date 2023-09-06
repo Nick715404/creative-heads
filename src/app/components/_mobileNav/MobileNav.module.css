@@ -56,8 +56,8 @@
 
 .burger_btn {
   position: fixed;
-  
-  right: 15px;
+  top: 50px;
+  right: 25px;
   font-size: 40px;
   pointer-events: none;
   color: #060606;
@@ -73,18 +73,9 @@
   border-radius: 50%;
   z-index: 2;
   cursor: pointer;
-
   opacity: 1;
-}
-
-.scrolled-burger-box {
   -moz-box-shadow: 3px 2px 15px 5px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 3px 2px 15px 5px rgba(0, 0, 0, 0.41);
   box-shadow: 3px 2px 15px 5px rgba(0, 0, 0, 0.41);
   background-color: #ffffff;
-}
-
-.scrolled-burger {
-  top: 50px;
-  right: 25px;
 }

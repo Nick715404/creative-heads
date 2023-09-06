@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react';
 import styles from './Card.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -32,11 +31,13 @@ export default function Card({ card }) {
           {card.tag}
         </div>
       </div>
-      <div className={styles.cards__link}>
-        <h4>{card.title}</h4>
+      <div className={styles.cards__link_box}>
+        <Link className={styles.link} href={card.link} target="_blank">
+          {card.title}
+        </Link>
       </div>
       <div className={styles.cards__text}>
-        {card.text}
+        <p>{card.text}</p>
       </div>
     </motion.div>
   )

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Header from "./components/_header/Header";
 import Hero from '@/app/components/_hero/Hero';
 import Works from "./components/_works/Works";

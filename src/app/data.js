@@ -130,3 +130,5 @@ export const discussText = 'To discover problem through research and learnings. 
 export const mappingText = 'We determine what is the best way to run the project based on the research process, and how we would meet the goals and expectations.'
 
 export const executionText = 'This is where we turn out our thinking process into stand out visual output. We build design that works, from prototype to real product in the market.';
+
+export const btnLink = 'https://t.me/ptrworship';

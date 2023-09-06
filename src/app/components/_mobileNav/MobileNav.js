@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './MobileNav.module.css';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';

@@ -57,3 +57,12 @@
   text-decoration: none;
   color: var(--dark);
 }
+
+@media (max-width:330px) {
+  .loader {
+    font-size: calc(var(--index) * 1.3);
+  }
+  .btn {
+    font-size: calc(var(--index) * 1.3);
+  }
+}

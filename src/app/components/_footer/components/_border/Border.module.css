@@ -49,3 +49,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 304px) {
+  .border {
+    font-size: calc(var(--index) * 1.2);
+  }
+}

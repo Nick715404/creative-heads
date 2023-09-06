@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react';
 import styles from './Socials.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';

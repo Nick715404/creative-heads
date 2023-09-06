@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react';
 import styles from './Collab.module.css';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/app/transitionVariant';

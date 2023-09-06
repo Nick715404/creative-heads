@@ -1,9 +1,10 @@
 'use client'
 
-import React from 'react';
 import styles from './Button.module.css';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/app/transitionVariant';
+import Link from 'next/link';
+import { btnLink } from '@/app/data';
 
 export default function Button({ children }) {
 
@@ -19,9 +20,12 @@ export default function Button({ children }) {
     textAlign: 'center',
     borderRadius: '51px',
     border: '1px solid var(--dark)',
-    cursor: 'pointer',
+    // cursor: 'pointer',
     background: 'transparent',
+    textDecoration: 'none',
   };
+
+  const href = 'https://t.me/ptrworship';
 
   return (
     <motion.div
@@ -30,9 +34,15 @@ export default function Button({ children }) {
       whileInView={'show'}
       viewport={{ once: true, amount: 0.2 }}
     >
-      <button className={styles.btn} id='onHoverGradient' style={headerBtnStyles}>
+      <Link
+        className={styles.btn}
+        href={btnLink}
+        id='onHoverGradient'
+        style={headerBtnStyles}
+        target='_blank'
+        >
         {children}
-      </button>
+      </Link>
     </motion.div>
   )
 }

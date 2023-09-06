@@ -1,17 +1,21 @@
 'use client'
 
-import React from 'react';
 import styles from './ArrowBtn.module.css';
+import { btnLink } from '@/app/data';
+import Link from 'next/link';
 
-export default function ArrowBtn({ src }) {
-  const whiteArrowPath = '/img/process/white-arrow.svg';
-  const blackArrowPath = '/img/process/black-arrow.svg';
 
+export default function ArrowBtn() {
   return (
     <>
-      <button id='onHoverGradient' className={styles.btn}>
+      <Link
+        className={styles.btn}
+        id='onHoverGradient'
+        href={btnLink}
+        target='_blank'
+      >
         <div className={styles.img}></div>
-      </button>
+      </Link>
     </>
   )
 }
