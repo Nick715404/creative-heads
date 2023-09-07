@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './MobileNav.module.css';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
@@ -11,6 +11,17 @@ import { CgMenuRight } from 'react-icons/cg'
 export default function MobileNav() {
 
   const [openMenu, setOpenMenu] = useState(false);
+
+  useEffect(() => {
+    const body = document.querySelector('body');
+    if (body) {
+      if (openMenu) {
+        body.classList.add('body-active');
+      } else {
+        body.classList.remove('body-active');
+      }
+    }
+  }, [openMenu]);
 
   const menuVariants = {
     hidden: {
@@ -26,7 +37,8 @@ export default function MobileNav() {
 
   return (
     <nav className={styles.mobileNav}>
-      <div className={styles.burger__btn_box} onClick={() => setOpenMenu(true)}>
+      <div className={styles.burger__btn_box} 
+      onClick={() => setOpenMenu(true)}>
         <CgMenuRight id='burger' className={styles.burger_btn} />
       </div>
       <motion.div

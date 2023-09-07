@@ -52,7 +52,6 @@ body {
   font-family: "Clash Grotesk", sans-serif;
   color: #787878;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
 body {
@@ -60,8 +59,9 @@ body {
 }
 
 .body-active {
-  overflow: hidden;
+  overflow-y: hidden;
 }
+
 .main {
   flex-grow: 1;
 }

@@ -2,10 +2,9 @@
 
 import styles from './Hero.module.css';
 import { fadeIn } from '@/app/transitionVariant';
-import { motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import Border from './components/_border/Border';
-
 
 export default function Hero() {
   return (
@@ -22,9 +21,27 @@ export default function Hero() {
           </motion.div>
           <motion.div className={styles.hero__title_box}>
             <h1 className={styles.hero__title}>
-             <motion.span variants={fadeIn('down', 0.4)} viewport={{ once: true, amount: 0.2 }} initial={'hidden'} whileInView={'show'}>We create the </motion.span>
-             <motion.span variants={fadeIn('down', 0.6)} viewport={{ once: true, amount: 0.2 }} initial={'hidden'} whileInView={'show'} className={styles.title_span}>digital future</motion.span>
-             <motion.span variants={fadeIn('down', 1)} viewport={{ once: true, amount: 0.2 }} initial={'hidden'} whileInView={'show'}> for Your business</motion.span>
+              <motion.span
+                className={styles.title__line}
+                variants={fadeIn('down', 0.4)}
+                viewport={{ once: true, amount: 0.2 }}
+                initial={'hidden'}
+                whileInView={'show'}
+              >We create the </motion.span>
+              <motion.span
+                className={styles.title_span}
+                variants={fadeIn('down', 0.6)}
+                viewport={{ once: true, amount: 0.2 }}
+                initial={'hidden'}
+                whileInView={'show'}>
+                digital future </motion.span>
+              <motion.span
+                className={styles.title__line}
+                variants={fadeIn('down', 1)}
+                viewport={{ once: true, amount: 0.2 }}
+                initial={'hidden'}
+                whileInView={'show'}>
+                for Your business</motion.span>
             </h1>
           </motion.div>
           <motion.div
